@@ -6,4 +6,6 @@ export default image = {
   fbicon: require("./fbicon.png"),
   zaloicon: require("./icozalo.png"),
   ggicon: require("./ggicon.png"),
+  book: require("./book.png"),
+  yellow: require("./yellow_block.svg").default,
 };

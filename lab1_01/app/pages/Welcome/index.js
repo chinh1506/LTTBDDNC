@@ -33,6 +33,9 @@ function Welcome({ navigation }) {
         </CustomButton>
       </View>
       <Text
+        onPress={() => {
+          navigation.navigate("detail");
+        }}
         style={{
           fontSize: 18,
           fontWeight: "700",
