@@ -4,7 +4,7 @@ function FlatItem({ handleDelete, item, index }) {
   return (
     <TouchableOpacity style={styles.wrapper}>
       <View style={styles.text1}>
-        <Text>{index}</Text>
+        <Text>{index + 1}</Text>
       </View>
       <Text style={styles.text2}>{item}</Text>
       <TouchableOpacity
