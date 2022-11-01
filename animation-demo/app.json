@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "animation-demo",
+    "slug": "animation-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light"
+  }
+}
