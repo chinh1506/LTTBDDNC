@@ -36,6 +36,10 @@ const App = () => {
     inputRange: [0, 1],
     outputRange: [0, 150], // 0 : 150, 0.5 : 75, 1 : 0
   });
+  const spin = fadeAnim.interpolate({
+    inputRange: [0, 1],
+    outputRange: ["0deg", "720deg"], // 0 : 150, 0.5 : 75, 1 : 0
+  });
 
   return (
     <SafeAreaView style={styles.container}>
@@ -48,7 +52,8 @@ const App = () => {
               opacity: fadeAnim,
               transform: [
                 {
-                  translateY: tranfXY,
+                  // rotateX: tranfXY,
+                  rotate: spin,
                 },
               ],
             },
